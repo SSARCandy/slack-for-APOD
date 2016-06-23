@@ -7,9 +7,8 @@ Slack bot that post Astronomy Picture of the Day.
 ```bash
 node index.js [lang]
 ```
-Support language:
- - `en_us`(default)
- - `zh_tw`
+Support language: see [node-apod](https://github.com/SSARCandy/node-apod#support-language)
+
 
 ## Installation
 
@@ -26,5 +25,6 @@ Support language:
 
 
 ## Reference
+- [node-apod](https://github.com/SSARCandy/node-apod)
 - [Get api key for NASA Open API](https://api.nasa.gov/index.html#apply-for-an-api-key)
 - [Setting Incoming Webhooks in Slack](https://slack.com/apps/A0F7XDUAZ-incoming-webhooks)
