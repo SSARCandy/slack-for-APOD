@@ -50,5 +50,4 @@ apod(config.NASA_API_KEY, process.argv[2], function (err, data) {
 
   sendToSlack(data);
   console.log(data);
-  process.exit(0);
 });
