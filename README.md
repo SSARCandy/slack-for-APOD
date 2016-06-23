@@ -1,7 +1,15 @@
 # slack-for-APOD
-Slack bot that post Astronomy Picture of the Day.
-
+Slack bot that post Astronomy Picture of the Day.  
 ![](./demo.jpg)
+
+## Usage
+
+```bash
+node index.js [lang]
+```
+Support language:
+ - `en_us`(default)
+ - `zh_tw`
 
 ## Installation
 
