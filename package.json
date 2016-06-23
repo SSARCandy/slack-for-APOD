@@ -22,8 +22,7 @@
   },
   "homepage": "https://github.com/SSARCandy/slack-for-APOD#readme",
   "dependencies": {
-    "cheerio": "^0.20.0",
-    "node-slack": "0.0.7",
-    "request": "^2.72.0"
+    "node-apod": "^1.0.1",
+    "node-slack": "0.0.7"
   }
 }

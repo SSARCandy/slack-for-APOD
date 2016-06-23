@@ -19,15 +19,8 @@ Support language:
   git clone https://github.com/SSARCandy/slack-for-APOD.git && cd slack-for-APOD
   npm install
   ```
-  
-2. Setting up config file
 
-  ```bash
-  cp config/config-template.js config/config.js
-  vim config/config.js
-  ```
-  
-3. Run it or use cronjob 
+2. Run it or use cronjob 
  - Run once, `node index.js`
  - Run with cronjob, add `0 12 * * * node ~/slack-for-APOD/index.js` to crontab. (post APOD everyday at noon)
 
