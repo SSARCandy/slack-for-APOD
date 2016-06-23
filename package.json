@@ -1,0 +1,28 @@
+{
+  "name": "slack-for-apod",
+  "version": "1.0.0",
+  "description": "slack bot that post Astronomy Picture of the Day",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SSARCandy/slack-for-APOD.git"
+  },
+  "keywords": [
+    "slack",
+    "apod",
+    "bot"
+  ],
+  "author": "ssarcandy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SSARCandy/slack-for-APOD/issues"
+  },
+  "homepage": "https://github.com/SSARCandy/slack-for-APOD#readme",
+  "dependencies": {
+    "node-slack": "0.0.7",
+    "request": "^2.72.0"
+  }
+}
