@@ -19,9 +19,18 @@ Support language: see [node-apod](https://github.com/SSARCandy/node-apod#support
   npm install
   ```
 
-2. Run it or use cronjob 
+2. setup `config.js`
+
+  ```bash
+  cp config/config-template.js config/config.js
+
+  # Fillup HOOK_URL, NASA_API_KEY
+  vim config/config.js 
+  ```
+
+3. Run it or use crontab 
  - Run once, `node index.js`
- - Run with cronjob, add `0 12 * * * node ~/slack-for-APOD/index.js` to crontab. (post APOD everyday at noon)
+ - Run with crontab, add `0 12 * * * node ~/slack-for-APOD/index.js` to crontab. (post APOD everyday at noon)
 
 
 ## Reference

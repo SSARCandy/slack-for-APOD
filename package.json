@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/SSARCandy/slack-for-APOD#readme",
   "dependencies": {
-    "node-apod": "^1.0.1",
+    "node-apod": "^1.5.2",
     "node-slack": "0.0.7"
   }
 }
