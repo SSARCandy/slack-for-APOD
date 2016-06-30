@@ -1,6 +1,6 @@
 # slack-for-APOD
 Slack bot that post Astronomy Picture of the Day.  
-![](./demo.jpg)
+![](https://raw.githubusercontent.com/SSARCandy/slack-for-APOD/master/demo.jpg)
 
 ## Usage
 
