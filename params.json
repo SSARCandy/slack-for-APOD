@@ -1,0 +1,6 @@
+{
+  "name": "Slack-for-apod",
+  "tagline": "slack bot that post Astronomy Picture of the Day",
+  "body": "# slack-for-APOD\r\nSlack bot that post Astronomy Picture of the Day.  \r\n![](https://raw.githubusercontent.com/SSARCandy/slack-for-APOD/master/demo.jpg)\r\n\r\n## Usage\r\n\r\n```bash\r\nnode index.js [lang]\r\n```\r\nSupport language: see [node-apod](https://github.com/SSARCandy/node-apod#support-language)\r\n\r\n\r\n## Installation\r\n\r\n1. Clone it & install dependences\r\n\r\n  ```bash\r\n  git clone https://github.com/SSARCandy/slack-for-APOD.git && cd slack-for-APOD\r\n  npm install\r\n  ```\r\n\r\n2. setup `config.js`\r\n\r\n  ```bash\r\n  cp config/config-template.js config/config.js\r\n\r\n  # Fillup HOOK_URL, NASA_API_KEY\r\n  vim config/config.js \r\n  ```\r\n\r\n3. Run it or use crontab \r\n - Run once, `node index.js`\r\n - Run with crontab, add `0 12 * * * node ~/slack-for-APOD/index.js` to crontab. (post APOD everyday at noon)\r\n\r\n\r\n## Reference\r\n- [node-apod](https://github.com/SSARCandy/node-apod)\r\n- [Get api key for NASA Open API](https://api.nasa.gov/index.html#apply-for-an-api-key)\r\n- [Setting Incoming Webhooks in Slack](https://slack.com/apps/A0F7XDUAZ-incoming-webhooks)\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
